@@ -1,0 +1,20 @@
+{
+    "name": "webpack_app",
+    "version": "1.0.0",
+    "description": "Sample webpack app",
+    "main": "app.js",
+    "scripts": {
+        "start": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js",
+        "build": "webpack"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "css-loader": "^6.2.0",
+        "style-loader": "^3.2.1",
+        "webpack-cli": "^4.8.0"
+    },
+    "dependencies": {
+        "jquery": "^3.6.0"
+    }
+}
